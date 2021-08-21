@@ -114,9 +114,24 @@ button {
   background-color: #923cb5;
   background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
   color: white;
-  transition-delay: 3s all;
 }
-button:hover {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+.project-content {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.blog-content {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
 }
