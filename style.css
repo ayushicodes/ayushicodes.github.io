@@ -1,0 +1,122 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  /* font-style: serif; */
+}
+
+body {
+  background-color: #5b6467;
+  background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+}
+.cointainer {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  top: 15%;
+  bottom: 15%;
+  left: 10%;
+  margin: auto;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  box-shadow: 0 10px 10px 0;
+  background-attachment: scroll;
+}
+.nav-el {
+  display: flex;
+  height: 45px;
+  width: auto;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+}
+.nav-el a {
+  padding-right: 50px;
+  color: white;
+  font-size: 20px;
+  transition: 2s all;
+}
+.nav-el a:hover {
+  color: grey;
+  font-size: 25px;
+}
+.nav-el p {
+  position: absolute;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+img {
+  position: absolute;
+  box-sizing: border-box;
+  height: 400px;
+  bottom: 0;
+  opacity: 0.7;
+}
+.about {
+  position: absolute;
+  top: 130px;
+  right: 350px;
+  color: white;
+}
+
+.about .line2 {
+  font-size: 50px;
+}
+span {
+  color: palevioletred;
+}
+.project-el {
+  position: absolute;
+  top: 600px;
+  width: 80%;
+  height: 70%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  box-shadow: 0 10px 10px 0;
+  left: 10%;
+}
+.blogs-el {
+  position: absolute;
+  top: 1110px;
+  width: 80%;
+  height: 70%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  box-shadow: 0 10px 10px 0;
+  left: 10%;
+}
+.contact-el {
+  position: absolute;
+  top: 1620px;
+  width: 80%;
+  height: 70%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  box-shadow: 0 10px 10px 0;
+  left: 10%;
+}
+button {
+  position: absolute;
+  display: flex;
+  left: 40%;
+  top: 20px;
+  width: 20%;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 0 10px;
+  border: none;
+  box-shadow: 0 5px 5px 5px;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: sans;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+  color: white;
+  transition-delay: 3s all;
+}
+button:hover {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+}
