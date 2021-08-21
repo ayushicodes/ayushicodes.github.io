@@ -66,7 +66,7 @@ img {
 span {
   color: palevioletred;
 }
-.project-el {
+.skills-el {
   position: absolute;
   top: 600px;
   width: 80%;
@@ -76,7 +76,7 @@ span {
   box-shadow: 0 10px 10px 0;
   left: 10%;
 }
-.blogs-el {
+.projects-el {
   position: absolute;
   top: 1110px;
   width: 80%;
@@ -86,7 +86,7 @@ span {
   box-shadow: 0 10px 10px 0;
   left: 10%;
 }
-.skills-el {
+.blogs-el {
   position: absolute;
   top: 1620px;
   width: 80%;
@@ -96,7 +96,7 @@ span {
   box-shadow: 0 10px 10px 0;
   left: 10%;
 }
-button {
+h1 {
   position: absolute;
   display: flex;
   left: 40%;
@@ -105,9 +105,9 @@ button {
   height: 45px;
   align-items: center;
   justify-content: center;
-  border-radius: 0 10px 0 10px;
-  border: none;
-  box-shadow: 0 5px 5px 5px;
+  /* border-radius: 0 10px 0 10px; */
+  /* border: none; */
+  box-shadow: 0 2px 2px 2px;
   font-size: 25px;
   font-weight: 300;
   font-style: sans;
@@ -115,7 +115,7 @@ button {
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   color: white;
 }
-.project-content {
+.skills-content {
   position: absolute;
   display: flex;
   width: 100%;
@@ -125,7 +125,7 @@ button {
   font-size: 30px;
   color: white;
 }
-.blog-content {
+.projects-content {
   position: absolute;
   display: flex;
   width: 100%;
@@ -134,4 +134,54 @@ button {
   align-items: center;
   font-size: 30px;
   color: white;
+}
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon {
+  padding: 30px;
+  color: black;
+}
+#tags {
+  font-size: 15px;
+  color: white;
+  transition: 2s all;
+}
+i:hover {
+  font-size: 100px;
+  color: rgb(226, 74, 13);
+}
+.blogs-content {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.contact-el {
+  position: absolute;
+  top: 2140px;
+  width: 80%;
+  height: 70%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  box-shadow: 0 10px 10px 0;
+  left: 10%;
+}
+#contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-content {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 70px;
 }
