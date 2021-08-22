@@ -221,7 +221,8 @@ i:hover {
     width: 300px;
   } */
   #skills {
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   #icon {
     padding: 20px;
