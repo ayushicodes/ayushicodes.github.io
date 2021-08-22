@@ -260,4 +260,7 @@ i:hover {
   img {
     visibility: hidden;
   }
+  .nav-el {
+    visibility: hidden;
+  }
 }
