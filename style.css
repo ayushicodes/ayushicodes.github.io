@@ -26,12 +26,14 @@ body {
 .nav-el {
   display: flex;
   height: 45px;
-  width: auto;
+  width: 100%;
   align-items: center;
   /* flex-wrap: wrap; */
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  /* border: 1px solid black; */
 }
 .nav-el a {
+  text-align: right;
   padding-right: 50px;
   color: white;
   font-size: 20px;
