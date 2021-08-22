@@ -66,6 +66,16 @@ img {
 span {
   color: palevioletred;
 }
+#blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .skills-el {
   position: absolute;
   top: 600px;
