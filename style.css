@@ -124,16 +124,17 @@ h1 {
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   color: white;
 }
-.skills-content {
-  position: absolute;
+#skills {
   display: flex;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.skills-content {
+  width: 100%;
+  height: 100%;
   font-size: 30px;
   color: white;
+  flex-wrap: wrap;
 }
 .projects-content {
   position: absolute;
@@ -145,11 +146,7 @@ h1 {
   font-size: 30px;
   color: white;
 }
-#skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 #icon {
   padding: 30px;
   color: black;
@@ -223,4 +220,10 @@ i:hover {
   /* .button {
     width: 300px;
   } */
+  #skills {
+    justify-content: center;
+  }
+  #icon {
+    padding: 20px;
+  }
 }
