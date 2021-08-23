@@ -283,6 +283,7 @@ i:hover {
     width: 150px;
     visibility: visible;
     clip-path: circle();
+    opacity: 1;
   }
   .contact-content {
     position: absolute;
