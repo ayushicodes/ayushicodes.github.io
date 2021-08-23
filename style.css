@@ -269,8 +269,8 @@ i:hover {
     visibility: hidden;
   }
   #image {
-    top: 90px;
-    text-align: center;
+    top: 120px;
+    left: 60px;
     position: absolute;
     height: 150px;
     width: 150px;
@@ -280,7 +280,7 @@ i:hover {
   .contact-content {
     position: absolute;
     top: 290px;
-    font-size: 20px;
+    font-size: 15px;
   }
   .social-icon {
     position: absolute;
