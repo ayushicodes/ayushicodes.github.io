@@ -191,17 +191,24 @@ i:hover {
   align-items: flex-end;
 }
 .contact-content {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   position: absolute;
-  top: 70px;
+  top: 300px;
 }
 #social-icon {
   padding: 20px;
   color: white;
+  font-size: 40px;
 }
 #image {
-  visibility: hidden;
+  position: absolute;
+  top: 100px;
+  visibility: visible;
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+  opacity: 1;
 }
 
 @media (max-width: 668px) {
