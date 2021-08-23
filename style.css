@@ -268,4 +268,18 @@ i:hover {
   .nav-el {
     visibility: hidden;
   }
+  #image {
+    top: 90px;
+    text-align: center;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    visibility: visible;
+    clip-path: circle();
+  }
+  .contact-content {
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+  }
 }
