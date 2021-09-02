@@ -104,6 +104,83 @@ input[type="checkbox"] {
 .intro .image1 img {
   height: 300px;
 }
+.skills {
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .icon {
+  font-size: 130px;
+}
+.skills .icon #css {
+  color: rgb(228, 79, 21);
+}
+.skills .icon #js {
+  color: rgb(202, 202, 54);
+}
+.skills .icon #react {
+  color: rgb(44, 44, 206);
+}
+.project {
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  /* display: flex;
+  flex-direction: row; */
+}
+.project h1 {
+  text-align: center;
+}
+.project img {
+  height: 300px;
+  width: 300px;
+}
+.project .project-el {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.project .project-el p {
+  align-self: center;
+  /* border: 1px solid black; */
+  width: 60%;
+  font-size: 50px;
+  text-align: center;
+}
+.blog {
+  /* border: 1px solid black; */
+  margin-top: 4%;
+}
+.blog h1 {
+  text-align: center;
+}
+.blog div {
+  display: flex;
+}
+.blog div p {
+  align-self: center;
+  /* border: 1px solid black; */
+  width: 73%;
+  font-size: 50px;
+  text-align: center;
+}
+#contact {
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact img {
+  height: 200px;
+  width: 200px;
+  clip-path: circle();
+}
+#contact .contact-icon {
+  font-size: 50px;
+}
 
 @media (max-width: 1000px) {
   nav {
@@ -177,5 +254,22 @@ input[type="checkbox"] {
   }
   .intro .line1 h1 {
     font-size: 20px;
+  }
+  .skills .icon {
+    font-size: 50px;
+  }
+  .project .project-el p {
+    font-size: 20px;
+  }
+  .project img {
+    height: 150px;
+    width: 150px;
+  }
+  .blog div p {
+    font-size: 20px;
+  }
+  .blog div img {
+    height: 150px;
+    width: 150px;
   }
 }
