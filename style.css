@@ -136,10 +136,12 @@ input[type="checkbox"] {
 #project img {
   height: 300px;
   width: 300px;
+  /* border: 1px solid black; */
 }
 #project .project-el {
   display: flex;
   /* border: 1px solid black; */
+  justify-content: flex-end;
 }
 #project .project-el p {
   align-self: center;
