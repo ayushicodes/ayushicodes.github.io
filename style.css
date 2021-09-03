@@ -148,17 +148,17 @@ input[type="checkbox"] {
   font-size: 50px;
   text-align: center;
 }
-.blog {
+#blog {
   /* border: 1px solid black; */
   margin-top: 6%;
 }
-.blog h1 {
+#blog h1 {
   text-align: center;
 }
-.blog div {
+#blog div {
   display: flex;
 }
-.blog div p {
+#blog div p {
   align-self: center;
   /* border: 1px solid black; */
   width: 73%;
@@ -265,10 +265,10 @@ input[type="checkbox"] {
     height: 150px;
     width: 150px;
   }
-  .blog div p {
+  #blog div p {
     font-size: 20px;
   }
-  .blog div img {
+  #blog div img {
     height: 150px;
     width: 150px;
   }
