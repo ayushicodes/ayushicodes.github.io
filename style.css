@@ -104,7 +104,7 @@ input[type="checkbox"] {
 .intro .image1 img {
   height: 300px;
 }
-.skills {
+#skills {
   /* border: 1px solid black; */
   margin-top: 6%;
   display: flex;
@@ -112,16 +112,16 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
 }
-.skills .icon {
+#skills .icon {
   font-size: 130px;
 }
-.skills .icon #css {
+#skills .icon #css {
   color: rgb(228, 79, 21);
 }
-.skills .icon #js {
+#skills .icon #js {
   color: rgb(202, 202, 54);
 }
-.skills .icon #react {
+#skills .icon #react {
   color: rgb(44, 44, 206);
 }
 .project {
