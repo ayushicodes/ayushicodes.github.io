@@ -57,7 +57,7 @@ input[type="checkbox"] {
   display: flex;
   /* border: 1px solid black; */
   margin-right: auto;
-  margin-top: 3%;
+  margin-top: 9%;
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
@@ -82,7 +82,7 @@ input[type="checkbox"] {
 }
 .intro {
   /* border: 1px solid black; */
-  margin-top: 12%;
+  margin-top: 18%;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -106,7 +106,7 @@ input[type="checkbox"] {
 }
 #skills {
   /* border: 1px solid black; */
-  margin-top: 12%;
+  margin-top: 18%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +126,7 @@ input[type="checkbox"] {
 }
 #projects {
   /* border: 1px solid black; */
-  margin-top: 12%;
+  margin-top: 18%;
   /* display: flex;
   flex-direction: row; */
 }
@@ -152,7 +152,7 @@ input[type="checkbox"] {
 }
 #blogs {
   /* border: 1px solid black; */
-  margin-top: 12%;
+  margin-top: 18%;
   position: relative;
   z-index: -1;
 }
@@ -171,7 +171,7 @@ input[type="checkbox"] {
 }
 #contact {
   /* border: 1px solid black; */
-  margin-top: 12%;
+  margin-top: 18%;
   display: flex;
   flex-direction: column;
   justify-content: center;
