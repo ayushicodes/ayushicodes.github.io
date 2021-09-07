@@ -188,6 +188,9 @@ input[type="checkbox"] {
 #contact .contact-icon {
   font-size: 50px;
 }
+#contact .contact-icon a{
+color: black;
+}
 
 @media (max-width: 1000px) {
   nav {
