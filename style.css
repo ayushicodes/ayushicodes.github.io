@@ -150,19 +150,19 @@ input[type="checkbox"] {
   font-size: 50px;
   text-align: center;
 }
-#blog {
+#blogs {
   /* border: 1px solid black; */
   margin-top: 9%;
   position: relative;
   z-index: -1;
 }
-#blog h1 {
+#blogs h1 {
   text-align: center;
 }
-#blog div {
+#blogs div {
   display: flex;
 }
-#blog div p {
+#blogs div p {
   align-self: center;
   /* border: 1px solid black; */
   width: 73%;
