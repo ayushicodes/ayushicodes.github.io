@@ -124,26 +124,26 @@ input[type="checkbox"] {
 #skills .icon #react {
   color: rgb(44, 44, 206);
 }
-#project {
+#projects {
   /* border: 1px solid black; */
   margin-top: 9%;
   /* display: flex;
   flex-direction: row; */
 }
-#project h1 {
+#projects h1 {
   text-align: center;
 }
-#project img {
+#projects img {
   height: 300px;
   width: 300px;
   /* border: 1px solid black; */
 }
-#project .project-el {
+#projects .project-el {
   display: flex;
   /* border: 1px solid black; */
   justify-content: flex-end;
 }
-#project .project-el p {
+#projects .project-el p {
   align-self: center;
   /* border: 1px solid black; */
   width: 60%;
