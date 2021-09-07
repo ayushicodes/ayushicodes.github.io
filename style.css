@@ -153,6 +153,8 @@ input[type="checkbox"] {
 #blog {
   /* border: 1px solid black; */
   margin-top: 9%;
+  position: relative;
+  z-index: -1;
 }
 #blog h1 {
   text-align: center;
@@ -174,6 +176,8 @@ input[type="checkbox"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: -1;
   /* background-color: rgb(202, 198, 198); */
 }
 #contact img {
