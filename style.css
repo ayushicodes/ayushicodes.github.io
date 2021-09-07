@@ -265,10 +265,10 @@ input[type="checkbox"] {
   #skills .icon {
     font-size: 50px;
   }
-  #project .project-el p {
+  #projects .project-el p {
     font-size: 20px;
   }
-  #project img {
+  #projects img {
     height: 150px;
     width: 150px;
   }
