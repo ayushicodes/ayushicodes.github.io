@@ -10,8 +10,8 @@ ul{
   justify-content: flex-end;
   flex-wrap: wrap;
   box-shadow: 0px 5px 7px 0px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   background-color: black;
   
 }
