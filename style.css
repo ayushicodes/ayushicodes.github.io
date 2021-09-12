@@ -175,7 +175,7 @@ color: black;
 @media (max-width: 668px) {
   ul{
     align-items: center;
-    height: 55px;
+    height: 75px;
 }
 ul li {
     margin: 1%;
