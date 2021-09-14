@@ -19,7 +19,7 @@ ul li{
   margin: 2%;
 }
 ul  #name{
-  color: white;
+  color: pink;
   margin-right: auto;
   align-self: center;
   /* border: 1px solid black; */
@@ -31,6 +31,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ul li a{
   color: white;
+}
+ul li .home{
+  color: pink;
 }
 .content {
   display: flex;
