@@ -173,20 +173,24 @@ ul img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  z-index: -1;
+
+ 
   /* background-color: rgb(202, 198, 198); */
 }
+
 #contact img {
+  margin-top: 4%;
   height: 200px;
   width: 200px;
   clip-path: circle();
 }
 #contact .contact-icon {
+  margin-top: 2%;
   font-size: 50px;
 }
 #contact .contact-icon a{
 color: black;
+opacity: 0.6;
 }
 
 
