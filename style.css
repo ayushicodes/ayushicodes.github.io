@@ -32,6 +32,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 ul li a{
   color: white;
 }
+ul li a:hover{
+  color: pink;
+}
 ul li .home{
   color: pink;
 }
