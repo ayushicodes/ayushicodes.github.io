@@ -101,8 +101,9 @@ ul img{
   margin-top: 18%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  
 }
 #skills .icon {
   font-size: 130px;
@@ -115,6 +116,9 @@ ul img{
 }
 #skills .icon #react {
   color: rgb(44, 44, 206);
+}
+#skills .icon a i:hover{
+ box-shadow:  10px 5px 5px pink;
 }
 #projects {
   /* border: 1px solid black; */
@@ -148,6 +152,7 @@ ul img{
   position: relative;
   z-index: -1;
 }
+
 #blogs h1 {
   text-align: center;
 }
