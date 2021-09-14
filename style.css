@@ -38,6 +38,13 @@ ul li a:hover{
 ul li .home{
   color: pink;
 }
+ul img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 4%;
+}
 .content {
   display: flex;
   /* border: 1px solid black; */
@@ -235,5 +242,16 @@ ul #name{
   #blogs div img {
     height: 150px;
     width: 150px;
+  }
+  ul p{
+    visibility: hidden;
+  }
+  ul img{
+    margin-left: 0;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    padding-left: 10px;
+
   }
 }
