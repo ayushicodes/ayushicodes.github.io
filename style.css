@@ -30,11 +30,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 ul li a{
-  color: rgb(214, 24, 56);
+  color: black;
  font: bolder;
+ font-weight: 900;
 }
 ul li a:hover{
-  color: pink;
+  color: rgb(209, 35, 64);
 }
 ul li .home{
   color: rgb(209, 35, 64);
