@@ -6,10 +6,10 @@
 }
 ul{
   display: flex;
-  border: 1px black solid;
+  /* border: 1px black solid; */
   justify-content: flex-end;
   flex-wrap: wrap;
-  /* box-shadow: 0px 5px 7px 0px; */
+  box-shadow: 0px 5px 7px 0px;
   position: sticky;
   top: 0;
   background-color: white;
@@ -50,13 +50,13 @@ ul img{
   width: 60px;
   border-radius: 50%;
   align-self: center;
-  margin-left: 4%;
+  
 }
 .content {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-right: auto;
-  margin-top: 9%;
+  margin:2%;
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
@@ -71,7 +71,7 @@ ul img{
 }
 .content .about {
   /* border: 1px solid black; */
-  text-align: center;
+  text-align: left;
   width: 50%;
   font-size: 30px;
 }
@@ -80,8 +80,8 @@ ul img{
   font-size: 50px;
 }
 #intro {
-  border: 1px solid black;
-  margin-top: 18%;
+  /* border: 1px solid black; */
+  margin:2%;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -92,10 +92,12 @@ ul img{
 #intro .image1 {
   /* border: 1px solid black; */
   margin-right: auto;
+
 }
 #intro .line1 {
   /* border: 1px solid black; */
   align-self: center;
+  text-align: left;
 }
 #intro .line1 h1 {
   font-size: 35px;
@@ -104,20 +106,29 @@ ul img{
   height: 300px;
 }
 #skills {
-  border: 1px solid black;
-  margin-top: 18%;
+  /* border: 1px solid black; */
+  margin: 2%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   
 }
 #skills .icon {
   margin-top: 4%;
   font-size: 130px;
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+
+
 }
-#skills .icon #css {
+
+#skills .icon a #css {
   color: rgb(228, 79, 21);
+  
 }
 #skills .icon #js {
   color: rgb(202, 202, 54);
@@ -129,8 +140,8 @@ ul img{
  box-shadow:  10px 5px 5px pink;
 }
 #projects {
-  border: 1px solid black;
-  margin-top: 18%;
+  /* border: 1px solid black; */
+  margin: 2%;
   /* display: flex;
   flex-direction: row; */
 }
@@ -155,8 +166,8 @@ ul img{
   text-align: center;
 }
 #blogs {
-  border: 1px solid black;
-  margin-top: 18%;
+  /* border: 1px solid black; */
+  margin: 2%;
   position: relative;
   z-index: -1;
 }
@@ -175,8 +186,8 @@ ul img{
   text-align: center;
 }
 #contact {
-  border: 1px solid black;
-  margin-top: 18%;
+  /* border: 1px solid black; */
+  margin: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
