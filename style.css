@@ -243,15 +243,16 @@ ul #name{
   .content .about .name {
     font-size: 30px;
   }
-  .intro .image1 img {
-    height: 150px;
-    width: 150px;
+  #intro .image1 img {
+    height: 100px;
+    width: 100px;
     align-self: center;
+  
   }
-  .intro .line1 {
+  #intro .line1 {
     font-size: 10px;
   }
-  .intro .line1 h1 {
+  #intro .line1 h1 {
     font-size: 20px;
   }
   #skills{
