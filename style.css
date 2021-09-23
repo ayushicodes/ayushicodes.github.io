@@ -267,8 +267,8 @@ ul #name{
   .content {
     flex-direction: row;
     margin-top: 12%;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 2%;
+    margin-left: 2%;
     
   }
   .img {
@@ -281,12 +281,13 @@ ul #name{
     font-size: 15px;
   }
   .content .about .name {
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 700;
   }
   #intro{
     margin-top: 20%;
-   margin-right: 0;
-   margin-left: 0;
+   margin-right: 2%;
+   margin-left: 2%;
    /* border: 1px solid black; */
   }
   #intro .image1 {
@@ -294,12 +295,17 @@ ul #name{
     display: none;
   }
   #intro .line1 {
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
     text-align: left; 
+    /* border: 1px solid black; */
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: 400;
+   
   }
   #intro .line1 h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
   }
   #skills{
