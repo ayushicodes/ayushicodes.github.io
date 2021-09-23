@@ -111,7 +111,7 @@ ul img{
   height: 300px;
 }
 #skills {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 8%;
   margin-right: 10%;
   margin-left: 10%;
@@ -231,7 +231,7 @@ opacity: 0.6;
   ul{
     align-items: center;
     height: 55px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-right: 0;
     margin-left: 0;
 
@@ -242,7 +242,7 @@ opacity: 0.6;
 }
 ul li {
     margin: 1.0%;
-  margin-left: 0;
+
 
 }
 ul li a{
@@ -254,6 +254,10 @@ ul #name{
 }
   .content {
     flex-direction: row;
+    margin-top: 12%;
+    margin-right: 0;
+    margin-left: 0;
+    
   }
   .img {
     width: 40%;
@@ -266,6 +270,11 @@ ul #name{
   }
   .content .about .name {
     font-size: 30px;
+  }
+  #intro{
+    margin-top: 20%;
+   margin-right: 0;
+   margin-left: 0;
   }
   #intro .image1 img {
     height: 100px;
@@ -280,10 +289,25 @@ ul #name{
     font-size: 20px;
   }
   #skills{
+    margin-top: 20%;
     flex-direction: column;
+    margin-top: 28%;
   }
   #skills .icon {
-    font-size: 50px;
+    font-size: 100px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #skills .icon a i{
+    margin-top: 4%;
+  }
+  #projects{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 28%;
   }
   #projects .project-el p {
     font-size: 20px;
@@ -291,6 +315,11 @@ ul #name{
   #projects img {
     height: 150px;
     width: 150px;
+  }
+  #blogs{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 28%;
   }
   #blogs div p {
     font-size: 20px;
