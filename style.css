@@ -97,18 +97,26 @@ ul img{
 #intro .image1 {
   /* border: 1px solid black; */
   margin-right: auto;
+  padding-left: 15%;
+  text-align: center;
+
 
 }
 #intro .line1 {
-  /* border: 1px solid black; */
+  /* border: 1px solid black */
   align-self: center;
   text-align: left;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 #intro .line1 h1 {
   font-size: 35px;
 }
 #intro .image1 img {
-  height: 300px;
+  height: 200px;
+  text-align: center;
+  margin-top: 25%;
 }
 #skills {
   /* border: 1px solid black; */
@@ -240,6 +248,9 @@ opacity: 0.6;
    
     
 }
+ul img{
+  margin-right: auto;
+}
 ul li {
     margin: 1.0%;
 
@@ -250,7 +261,8 @@ ul li a{
   
 }
 ul #name{
-    font-size: 15px;
+    
+    display: none;
 }
   .content {
     flex-direction: row;
@@ -269,24 +281,26 @@ ul #name{
     font-size: 15px;
   }
   .content .about .name {
-    font-size: 30px;
+    font-size: 40px;
   }
   #intro{
     margin-top: 20%;
    margin-right: 0;
    margin-left: 0;
+   /* border: 1px solid black; */
   }
-  #intro .image1 img {
-    height: 100px;
-    width: 100px;
-    align-self: center;
-  
+  #intro .image1 {
+   
+    display: none;
   }
   #intro .line1 {
-    font-size: 10px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left; 
   }
   #intro .line1 h1 {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 900;
   }
   #skills{
     margin-top: 20%;
