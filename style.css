@@ -142,14 +142,14 @@ ul img{
 }
 
 #skills .icon a #css {
-  color: rgb(228, 79, 21);
+  color: #2965f1;
   
 }
 #skills .icon #js {
-  color: rgb(202, 202, 54);
+  color:  #f0db4f;
 }
 #skills .icon #react {
-  color: rgb(44, 44, 206);
+  color: #61DBFB;
 }
 #skills .icon a i:hover{
  box-shadow:  10px 5px 5px pink;
