@@ -22,18 +22,39 @@
 
 <body>
   <!-- NAV -->
-  <ul>
-    <img src="profile_pic.png" alt="vector-img" />
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo"><img src="profile_pic.png" alt="profile"></a>
+      <a href="#" class="nav-logo" id="name">Ayushi Rai</a>
 
-    <p id="name"> Ayushi Rai</p>
 
-    <li><a class="home" href="#">HOME</a></li>
-    <li><a class="about" href="#intro">ABOUT</a></li>
-    <li><a class="skills" href="#skills">SKILLS</a></li>
-    <li><a class="projects" href="#projects">PROJECTS</a></li>
-    <li><a class="blogs" href="#blogs">BLOGS</a></li>
-    <li><a class="contacts" href="#contact">CONTACT</a></li>
-  </ul>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link" id="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
 
 
   <!-- ABOUT -->
@@ -61,7 +82,7 @@
       Hi there!<br />
       I am a 19 y/o INFJ.<br />
       B.Tech (EC) student by day. Frontend developer by night.<br />
-      Always up for intresting  conversations!
+      Always up for intresting conversations!
     </div>
   </div>
 
@@ -121,6 +142,27 @@
       </a>
     </div>
   </div>
+
+  <script>
+
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  </script>
 </body>
 
 </html>
