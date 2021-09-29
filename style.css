@@ -115,6 +115,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin-left: auto;
 /* border: 1px solid black; */
 height: 100%;
+align-self: flex-end;
 
   
 }
@@ -125,7 +126,7 @@ height: 100%;
 .content .about {
   /* border: 1px solid black; */
   text-align: left;
-  align-self: flex-end;
+  /* align-self: flex-end; */
  
 }
 .content .about .line1 .name {
@@ -144,6 +145,7 @@ height: 100%;
  display: flex;
  justify-content: flex-start;
  align-items: center;
+ padding-bottom: 13%;
  
 }
 .content #buttons button{
@@ -418,6 +420,7 @@ opacity: 0.6;
   }
   .content #buttons{
     width: 100%;
+    padding-bottom: 0;
   }
   .content #buttons button{
     width: 120px;
