@@ -42,7 +42,11 @@ a {
 }
 .header .navbar #name{
     /* border: 1px solid black; */
-    margin-right: 25%;
+    margin-right: 20%;
+    
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
 
 }
 .header .navbar .nav-menu .nav-item #home {
@@ -55,7 +59,7 @@ a {
 .bar {
     display: block;
     width: 25px;
-    height: 2px;
+    height: 3px;
     margin: 5px 5px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -280,13 +284,26 @@ opacity: 0.6;
     left: -100%;
     top: 7.5rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: black;
+    /* color: white; */
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     transition: 0.3s;
     box-shadow:
         0 10px 27px rgba(0, 0, 0, 0.05);
+}
+.header .navbar .nav-menu .nav-item .nav-link{
+  color: white;
+}
+.header .navbar #name{
+  /* border: 1px solid white; */
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+
 }
 
 .nav-menu.active {
