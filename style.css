@@ -106,32 +106,81 @@ a {
 .content .about .line1{
 /* border: 1px solid black; */
 width: 100%;
-font-size: 35px;
+font-size: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .content .img {
+margin-left: auto;
+/* border: 1px solid black; */
+height: 100%;
 
-  display: none;
+  
 }
 .img img {
   height: 350px;
+
 }
 .content .about {
   /* border: 1px solid black; */
   text-align: left;
+  align-self: flex-end;
  
 }
 .content .about .line1 .name {
   color: rgb(218, 72, 96);
-  font-size: 65px;
+  font-size: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .content .about .line2{
-  font-size: 35px;
+  font-size: 30px;
   /* border: 1px solid black; */
 }
+.content #buttons{
+ /* border: 1px solid black; */
+ height: 100px;
+ width: 58%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ 
+}
+.content #buttons button{
+  height: 50px;
+  width:170px ;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+
+ 
+}
+.content #buttons .button1{
+  border: 2px solid rgb(218, 72, 96);
+  background-color:rgb(218, 72, 96) ;
+  color: white;
+  box-shadow: 3px 0 4px 0;
+
+}
+.content #buttons .button1:hover{
+  border: 2px solid rgb(218, 72, 96);
+  background-color: white;
+  text-decoration: underline;
+  color: black;
+}
+.content #buttons .button2{
+margin-left: 3%;
+border: 2px solid rgb(218, 72, 96);
+background-color: white;
+box-shadow: 3px 0 4px 0;
+}
+.content #buttons .button2:hover{
+  text-decoration: underline;
+  background-color: rgb(218, 72, 96);
+  color: white;
+}
+
+
 #intro {
   /* border: 1px solid black; */
   margin-top: 8%;
@@ -354,9 +403,11 @@ opacity: 0.6;
   }
   .img {
     width: 40%;
+    display: none;
   }
   .content .img img {
     height: 120px;
+
   }
   .content .about {
     font-size: 15px;
@@ -365,6 +416,16 @@ opacity: 0.6;
     font-size: 45px;
     font-weight: 700;
   }
+  .content #buttons{
+    width: 100%;
+  }
+  .content #buttons button{
+    width: 120px;
+  }
+  .content #buttons .button2{
+    margin-left: 8%;
+  }
+  
   #intro{
     margin-top: 20%;
    margin-right: 2%;
