@@ -38,11 +38,15 @@ a {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    user-select: none;
+    cursor: default;
    
 }
 .header .navbar #name{
     /* border: 1px solid black; */
     margin-right: 20%;
+    user-select: none;
+    cursor: default;
     
     font-size: 35px;
     width: 100%;
