@@ -69,6 +69,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .nav-item {
@@ -101,9 +103,11 @@ a {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  height: 70vh;
+
   
 }
-.content .about .line1{
+.content .about h1{
 /* border: 1px solid black; */
 width: 100%;
 font-size: 30px;
@@ -112,32 +116,42 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .content .img {
+ 
 margin-left: auto;
 /* border: 1px solid black; */
 height: 100%;
-align-self: flex-end;
+display: flex;
+align-items: flex-end;
+
+
 
   
 }
-.img img {
+.content .img img {
   height: 350px;
+  
+  /* border: 1px solid black; */
 
 }
 .content .about {
+  
   /* border: 1px solid black; */
   text-align: left;
+  width: 50%;
+  height: 70%;
   /* align-self: flex-end; */
  
 }
-.content .about .line1 .name {
+.content .about  .name {
   color: rgb(218, 72, 96);
-  font-size: 60px;
+  font-size: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.content .about .line2{
+.content .about h1 .txt-rotate{
   font-size: 30px;
-  /* border: 1px solid black; */
+  
 }
+
 .content #buttons{
  /* border: 1px solid black; */
  height: 100px;
@@ -145,7 +159,7 @@ align-self: flex-end;
  display: flex;
  justify-content: flex-start;
  align-items: center;
- padding-bottom: 13%;
+ 
  
 }
 .content #buttons button{
@@ -157,26 +171,27 @@ align-self: flex-end;
 
  
 }
-.content #buttons .button1{
-  border: 2px solid rgb(218, 72, 96);
+.content .about #buttons .button1{
+  border: 2px ;
   background-color:rgb(218, 72, 96) ;
   color: white;
-  box-shadow: 3px 0 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 }
-.content #buttons .button1:hover{
+.content .about #buttons .button1:hover{
   border: 2px solid rgb(218, 72, 96);
   background-color: white;
   text-decoration: underline;
   color: black;
+  
 }
-.content #buttons .button2{
+.content .about #buttons .button2{
 margin-left: 3%;
 border: 2px solid rgb(218, 72, 96);
 background-color: white;
-box-shadow: 3px 0 4px 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.content #buttons .button2:hover{
+.content .about #buttons .button2:hover{
   text-decoration: underline;
   background-color: rgb(218, 72, 96);
   color: white;
@@ -403,20 +418,20 @@ opacity: 0.6;
     margin-left: 2%;
     
   }
-  .img {
-    width: 40%;
-    display: none;
-  }
+  
   .content .img img {
-    height: 120px;
+   
+    display: none;
 
   }
   .content .about {
     font-size: 15px;
+    width: 100%;
   }
   .content .about .name {
-    font-size: 45px;
+    font-size: 65px;
     font-weight: 700;
+    white-space: nowrap;
   }
   .content #buttons{
     width: 100%;

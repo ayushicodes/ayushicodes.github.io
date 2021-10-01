@@ -15,6 +15,8 @@
   <meta name="copyright" content="ayushi" />
   <meta name="robots" content="follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
   <!-- Icon tags -->
   <link rel="icon" href="profile_pic.png" type="image/png" />
   <link rel="apple-touch-icon" sizes="180x180" href="profile_pic.png" />
@@ -64,8 +66,14 @@
   <div class="content">
 
     <div class="about">
-      <p class="line1">HI<br /> <br /><span class="name">I'M AYUSHI</span></p><br /><br />
-      <p class="line2"> DEVELOPER</p>
+      <h1>Hi <br /><span class="name">I'm AYUSHI</span><br /><br />
+        <span class="txt-rotate" data-period="2000" data-rotate='[ "DEVELOPER","ENGINEER" ]'></span>
+      </h1>
+      <p id="buttons">
+        <button class="button1">HIRE ME</button>
+        <button class="button2">VIEW RESUME</button>
+
+      </p>
     </div>
 
     <div class="img">
@@ -74,11 +82,7 @@
         alt="vector-img" class="image" />
     </div>
 
-    <p id="buttons">
-      <button class="button1">HIRE ME</button>
-      <button class="button2">VIEW RESUME</button>
 
-    </p>
   </div>
   <div id="intro">
 
@@ -171,6 +175,63 @@
       hamburger.classList.remove("active");
       navMenu.classList.remove("active");
     }
+
+    var TxtRotate = function (el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 2000;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+    };
+
+    TxtRotate.prototype.tick = function () {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+      var that = this;
+      var delta = 300 - Math.random() * 100;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(function () {
+        that.tick();
+      }, delta);
+    };
+
+    window.onload = function () {
+      var elements = document.getElementsByClassName('txt-rotate');
+      for (var i = 0; i < elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-rotate');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtRotate(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+      document.body.appendChild(css);
+    };
   </script>
 </body>
 
