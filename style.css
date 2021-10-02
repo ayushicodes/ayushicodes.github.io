@@ -204,43 +204,45 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 
 #intro {
   /* border: 1px solid black; */
-  margin-top: 8%;
+  margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
   flex-direction: row;
   text-align: center;
 }
-#intro div {
-  font-size: 20px;
-}
+
 #intro .image1 {
   /* border: 1px solid black; */
   margin-right: auto;
-  padding-left: 15%;
+  padding-left: 25%;
   text-align: center;
 
 
 }
 #intro .line1 {
-  /* border: 1px solid black */
+  /* border: 1px solid black; */
   align-self: center;
   text-align: left;
-  padding-right: 10%;
+  padding-right: 20%;
   padding-top: 4%;
   padding-bottom: 4%;
 }
 #intro .line1 h1 {
   font-size: 35px;
 }
+#intro .line1 p{
+  font-size: 20px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #intro .image1 img {
-  height: 200px;
+  height: 150px;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 40%;
 }
 #skills {
   /* border: 1px solid black; */
-  margin-top: 8%;
+  margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
@@ -276,7 +278,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 }
 #projects {
   /* border: 1px solid black; */
-  margin-top: 8%;
+  margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   /* display: flex;
@@ -304,7 +306,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 }
 #blogs {
   /* border: 1px solid black; */
-  margin-top: 8%;
+  margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   position: relative;
@@ -326,7 +328,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 }
 #contact {
   /* border: 1px solid black; */
-  margin-top: 8%;
+  margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
