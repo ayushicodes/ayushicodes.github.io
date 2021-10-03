@@ -48,14 +48,18 @@ a {
     margin-right: 20%;
     user-select: none;
     cursor: default;
-    
+    background: -webkit-linear-gradient(#1f1312, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 35px;
     width: 100%;
     text-align: center;
 
 }
 .header .navbar .nav-menu .nav-item #home {
-    color:rgb(204, 121, 134);
+  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hamburger {
     display: none;
@@ -89,13 +93,15 @@ a {
 }
 
 .nav-link:hover{
-    color: rgb(204, 121, 134);
+  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: rgb(204, 121, 134);
+    color: #fd9464;
     
    
 }
@@ -148,7 +154,10 @@ align-items: flex-end;
  
 }
 .content .about  .name {
-  color: rgb(218, 72, 96);
+
+  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -178,27 +187,28 @@ align-items: flex-end;
 }
 .content .about #buttons .button1{
   border: 2px ;
-  background-color:rgb(218, 72, 96) ;
+  background-image: linear-gradient(to right, #1f1312, #ffffff);
   color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
 
 }
 .content .about #buttons .button1:hover{
-  border: 2px solid rgb(218, 72, 96);
-  background-color: white;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #1f1312, #ffffff);
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
   text-decoration: underline;
   color: black;
   
 }
 .content .about #buttons .button2{
 margin-left: 3%;
-border: 2px solid rgb(218, 72, 96);
-background-color: white;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
-}
+border-image: linear-gradient(to right, #1f1312, #ffffff);
+background-image: linear-gradient(to right, #ffffff, #ffffff);
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} 
 .content .about #buttons .button2:hover{
   text-decoration: underline;
-  background-color: rgb(218, 72, 96);
+  background-image: linear-gradient(to right, #1f1312, #ffffff);
   color: white;
 }
 
@@ -336,6 +346,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10%;
 
  
   /* background-color: rgb(202, 198, 198); */
@@ -354,6 +365,13 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #contact .contact-icon a{
 color: black;
 opacity: 0.6;
+}
+#contact .contact-icon a:hover{
+  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+ 
 }
 
 
