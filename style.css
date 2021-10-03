@@ -572,5 +572,18 @@ font-size: 35px;
   
   #contact{
     margin-top: 50%;
+    margin-bottom: 15%;
+  }
+  #contact .contact-icon{
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  #contact .contact-icon a{
+    
+ font-size: 30px;
+ margin: 4%;
+ text-align: center;
+ 
   }
 }
