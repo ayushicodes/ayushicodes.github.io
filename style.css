@@ -48,7 +48,7 @@ a {
     margin-right: 20%;
     user-select: none;
     cursor: default;
-    background: -webkit-linear-gradient(#1f1312, #ffffff);
+    background: -webkit-linear-gradient(#ff66c4, #cb6ce6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 35px;
@@ -57,7 +57,7 @@ a {
 
 }
 .header .navbar .nav-menu .nav-item #home {
-  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  background: -webkit-linear-gradient(#ff66c4, #cb6ce6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -93,7 +93,7 @@ a {
 }
 
 .nav-link:hover{
-  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  background: -webkit-linear-gradient(#ff66c4, #cb6ce6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -155,7 +155,7 @@ align-items: flex-end;
 }
 .content .about  .name {
 
-  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  background: -webkit-linear-gradient(#ff66c4, #cb6ce6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 80px;
@@ -187,14 +187,14 @@ align-items: flex-end;
 }
 .content .about #buttons .button1{
   border: 2px ;
-  background-image: linear-gradient(to right, #1f1312, #ffffff);
+  background-image: linear-gradient(to right, #ff66c4, #cb6ce6);
   color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
 }
 .content .about #buttons .button1:hover{
   border: 2px solid;
-  border-image: linear-gradient(to right, #1f1312, #ffffff);
+  border-image: linear-gradient(to right, #ff66c4, #cb6ce6);
   background-image: linear-gradient(to right, #ffffff, #ffffff);
   text-decoration: underline;
   color: black;
@@ -202,13 +202,13 @@ align-items: flex-end;
 }
 .content .about #buttons .button2{
 margin-left: 3%;
-border-image: linear-gradient(to right, #1f1312, #ffffff);
+border-image: linear-gradient(to right, #ff66c4, #cb6ce6);
 background-image: linear-gradient(to right, #ffffff, #ffffff);
- box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 } 
 .content .about #buttons .button2:hover{
   text-decoration: underline;
-  background-image: linear-gradient(to right, #1f1312, #ffffff);
+  background-image: linear-gradient(to right, #ff66c4, #cb6ce6);
   color: white;
 }
 
@@ -347,15 +347,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   justify-content: center;
   align-items: center;
   margin-bottom: 10%;
-
- 
-  /* background-color: rgb(202, 198, 198); */
 }
-
 #contact img {
+  border-image:  linear-gradient(to right, #1f1312, #cb6ce6);
   margin-top: 4%;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   clip-path: circle();
 }
 #contact .contact-icon {
@@ -367,13 +364,15 @@ color: black;
 opacity: 0.6;
 }
 #contact .contact-icon a:hover{
-  background: -webkit-linear-gradient(#1f1312, #ffffff);
+  background: -webkit-linear-gradient(#1f1312, #cb6ce6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  
  
 }
 
+/* --------MEDIA QUERY---------- */
+/* ----------------------------- */
 
 
 @media (max-width: 668px) {
