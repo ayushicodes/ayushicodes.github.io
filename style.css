@@ -252,7 +252,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-top: 40%;
 }
 #skills {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
@@ -274,8 +274,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   flex-wrap: wrap;
   justify-content: space-evenly;
   
-  
-
 
 }
 #skills .icon div {
@@ -519,11 +517,12 @@ opacity: 0.6;
     font-size: 35px;
     font-weight: 900;
   }
+
   #skills{
-    margin-top: 27%;
     flex-direction: column;
-    margin-top: 28%;
+    margin-top: 50%;
   }
+
   #skills h1{
 font-size: 35px;
   }
