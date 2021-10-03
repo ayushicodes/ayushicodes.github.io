@@ -39,14 +39,14 @@ a {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    user-select: none;
+
     cursor: default;
    
 }
 .header .navbar #name{
     /* border: 1px solid black; */
     margin-right: 20%;
-    user-select: none;
+
     cursor: default;
     background: -webkit-linear-gradient(#ff66c4, #cb6ce6);
     -webkit-background-clip: text;
@@ -374,7 +374,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-bottom: 10%;
 }
 #contact p{
-  font-size: 20px;
+  font-size: 15px;
 }
 #contact img {
   border-image:  linear-gradient(to right, #1f1312, #cb6ce6);
@@ -385,12 +385,18 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 #contact .contact-icon {
   margin-top: 2%;
-  font-size: 50px;
+  font-size: 40px;
+  /* border: 1px solid black; */
+  width: 100%;
+  text-align: center;
+ 
   
 }
 #contact .contact-icon a{
+  
 color: black;
 opacity: 0.6;
+margin: 0.5%;
 }
 #contact .contact-icon a:hover{
   background: -webkit-linear-gradient(#1f1312, #cb6ce6);
