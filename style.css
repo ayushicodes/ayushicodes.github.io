@@ -373,6 +373,9 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   align-items: center;
   margin-bottom: 10%;
 }
+#contact p{
+  font-size: 20px;
+}
 #contact img {
   border-image:  linear-gradient(to right, #1f1312, #cb6ce6);
   margin-top: 4%;
@@ -383,6 +386,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #contact .contact-icon {
   margin-top: 2%;
   font-size: 50px;
+  
 }
 #contact .contact-icon a{
 color: black;
@@ -544,7 +548,7 @@ font-size: 35px;
   #projects{
     margin-right: 0;
     margin-left: 0;
-    margin-top: 28%;
+    margin-top: 50%;
   }
   #projects .project-el p {
     font-size: 20px;
@@ -556,7 +560,7 @@ font-size: 35px;
   #blogs{
     margin-right: 0;
     margin-left: 0;
-    margin-top: 28%;
+    margin-top: 50%;
   }
   #blogs div p {
     font-size: 20px;
@@ -566,4 +570,7 @@ font-size: 35px;
     width: 150px;
   }
   
+  #contact{
+    margin-top: 50%;
+  }
 }
