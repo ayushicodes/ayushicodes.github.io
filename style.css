@@ -405,8 +405,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 #contact .contact-icon a{
   
-color: black;
-opacity: 0.6;
+color: rgba(151, 139, 139, 0.582) ;
+/* opacity: 0.6; */
 margin: 0.5%;
 }
 #contact .contact-icon a:hover{
