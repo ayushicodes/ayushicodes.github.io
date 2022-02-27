@@ -629,7 +629,9 @@ margin: 0.5%;
   .content #buttons .button2{
     margin-left: 8%;
   }
-  
+  button{
+    width: 80px;
+  }
   #intro{
     margin-top: 20%;
    margin-right: 2%;
