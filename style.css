@@ -634,7 +634,7 @@ margin: 0.5%;
   #intro .line1 {
     font-size: 20px;
     width: 100%;
-    text-align: left; 
+    text-align: center; 
     /* border: 1px solid black; */
     margin-right: 0;
     padding-right: 0;
@@ -674,7 +674,7 @@ font-size: 35px;
     margin-left: 0;
     margin-top: 50%;
   }
-  #projects .project-el p {
+  #projects .project-el div a {
     font-size: 20px;
   }
   #blogs{
