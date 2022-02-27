@@ -25,7 +25,7 @@ a {
     top: 0;
     position: sticky;
     background-color: white;
-    
+    z-index: 3;
 
 }
 
@@ -166,17 +166,17 @@ align-items: flex-end;
   
 }
 
-.content #buttons{
+/* .content #buttons{ */
  /* border: 1px solid black; */
- height: 100px;
+ /* height: 100px;
  width: 58%;
  display: flex;
  justify-content: flex-start;
  align-items: center;
  
  
-}
-.content #buttons button{
+} */
+/* .content #buttons button{
   height: 50px;
   width:170px ;
   border-radius: 5px;
@@ -184,8 +184,8 @@ align-items: flex-end;
   font-size: 15px;
 
  
-}
-.content .about #buttons .button1{
+} */
+/* .content .about #buttons .button1{
   border: 2px ;
   background-image: linear-gradient(to right, #b88b79,#1f1312 );
   color: white;
@@ -211,34 +211,106 @@ color: black;
   text-decoration: underline;
   background-image: linear-gradient(to right,  #b88b79,#1f1312);
   color: black;
-}
+} */
+button {
+  position: relative;
+  padding: 19px 36px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 40px;
+  border: none;
+  margin-top: 5%;
+ }
+ 
+ button span {
+  position: relative;
+  color: #fff;
+  font-family: Arial;
+  letter-spacing: 8px;
+  z-index: 1;
+ }
+ 
+ button .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+ }
+ 
+ button .liquid::after,
+ button .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+ }
+ 
+ button .liquid::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+ }
+ 
+ button .liquid::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+ }
+ 
+ button:hover .liquid {
+  top: -120px;
+ }
+ 
+ @keyframes animate {
+  0% {
+   transform: translate(-50%, -75%) rotate(0deg);
+  }
+ 
+  100% {
+   transform: translate(-50%, -75%) rotate(360deg);
+  }
+ }
 
 
 #intro {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   text-align: center;
+  box-shadow: rgb(3, 3, 3) 0px 0px 0px 2px inset, rgb(56, 55, 55) 10px -10px 0px -3px, rgb(87, 92, 87) 10px -10px, rgb(133, 129, 129) 20px -20px 0px -3px, rgb(43, 42, 36) 20px -20px, rgb(46, 44, 44) 30px -30px 0px -3px, rgb(128, 113, 103) 30px -30px, rgb(29, 25, 25) 40px -40px 0px -3px, rgb(83, 58, 58) 40px -40px;
+  
 }
 
-#intro .image1 {
+/* #intro .image1 {
   /* border: 1px solid black; */
-  margin-right: auto;
+  /* margin-right: auto;
   padding-left: 10%;
   text-align: center;
 
 
-}
+} */ 
 #intro .line1 {
   /* border: 1px solid black; */
   align-self: center;
-  text-align: left;
-  padding-right: 20%;
+  text-align: center;
+  /* padding-left: 20%; */
   padding-top: 4%;
   padding-bottom: 4%;
+  width: 100vh;
+  margin-left: 20%;
 }
 #intro .line1 h1 {
   font-size: 35px;
@@ -247,11 +319,11 @@ color: black;
   font-size: 20px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#intro .image1 img {
+/* #intro .image1 img {
   height: 250px;
   text-align: center;
   margin-top: 10%;
-}
+} */
 #skills {
   /* border: 1px solid black; */
   margin-top: 12%;
@@ -280,18 +352,40 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #skills .icon div {
   border:  1px solid rgb(14, 13, 13, 0.3);
   width: 180px;
-  height: 110px;
+  height: 120px;
   text-align: center;
   margin: 5%;
  
 }
 #skills .icon div p{
   font-size: 15px;
+  bottom: 0;
+  /* border: 1px solid black; */
 }
 #skills .icon div i{
-  font-size: 90px;
+  font-size: 80px;
 
 }
+#skills .icon .html{
+  box-shadow: rgba(34, 30, 33, 0.4) -5px 5px, rgba(75, 73, 74, 0.3) -10px 10px, rgba(39, 30, 36, 0.2) -15px 15px, rgba(14, 13, 13, 0.1) -20px 20px, rgba(14, 12, 13, 0.05) -25px 25px;
+}
+#skills .icon .css{
+  box-shadow: rgba(34, 30, 33, 0.4) 0px 5px, rgba(75, 73, 74, 0.3) 0px 10px, rgba(39, 30, 36, 0.2) 0px 15px, rgba(14, 13, 13, 0.1) 0px 20px, rgba(14, 12, 13, 0.05) 0px 25px;
+}
+#skills .icon .js{
+  box-shadow: rgba(34, 30, 33, 0.4) 5px 5px, rgba(75, 73, 74, 0.3) 10px 10px, rgba(39, 30, 36, 0.2) 15px 15px, rgba(14, 13, 13, 0.1) 20px 20px, rgba(14, 12, 13, 0.05) 25px 25px;
+}
+#skills .icon .react{
+  box-shadow: rgba(34, 30, 33, 0.4) -5px 5px, rgba(75, 73, 74, 0.3) -10px 10px, rgba(39, 30, 36, 0.2) -15px 15px, rgba(14, 13, 13, 0.1) -20px 20px, rgba(14, 12, 13, 0.05) -25px 25px;
+}
+#skills .icon .python{
+  box-shadow: rgba(34, 30, 33, 0.4) 0px 5px, rgba(75, 73, 74, 0.3) 0px 10px, rgba(39, 30, 36, 0.2) 0px 15px, rgba(14, 13, 13, 0.1) 0px 20px, rgba(14, 12, 13, 0.05) 0px 25px;
+}
+#skills .icon .tailwind{
+  box-shadow: rgba(34, 30, 33, 0.4) 5px 5px, rgba(75, 73, 74, 0.3) 10px 10px, rgba(39, 30, 36, 0.2) 15px 15px, rgba(14, 13, 13, 0.1) 20px 20px, rgba(14, 12, 13, 0.05) 25px 25px;
+}
+
+
 
 #skills .icon div #css {
   color: #2965f1;
@@ -309,16 +403,17 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #skills .icon div #html{
   color: #ff0000;
   /* opacity: 0.7; */
+  
 }
-#skills .icon div:hover{
+/* #skills .icon div:hover{
   box-shadow: 0 0 10px 5px #1f1312;
-}
+} */
 #projects {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
-  height: 50vh;
+  height: 90vh;
   align-items: center;
    display: flex;
   flex-direction: column;
@@ -329,22 +424,42 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-size: 35px;
 }
 #projects .project-el {
- display: flex;
- align-items: center;
+ 
+ 
   /* border: 1px solid black; */
   height: 100%;
   width: 100%;
-  justify-content: center;
+
+  
+  
 }
-#projects .project-el p{
-  font-size: 25px;
- background: -webkit-linear-gradient( #b88b79,#1f1312);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#projects .project-el div{
+  border: 1px solid  rgb(11, 11, 12);
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#projects .project-el div:hover{
+  
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#projects .project-el div img{
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+#projects .project-el div a{
+  font-size: 30px;
+  text-align: center;
+  color: black;
 }
 
 
-#blogs {
+/* #blogs {
   border: 1px solid black;
   margin-top: 12%;
   margin-right: 10%;
@@ -363,17 +478,17 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   display: flex;
   align-items: center;
    /* border: 1px solid black; */
-   height: 100%;
+   /* height: 100%;
    width: 100%;
    justify-content: center;
- 
-}
-#blogs .blogs-el p{
+  */
+/* } */
+/* #blogs .blogs-el p{
   font-size: 25px;
   background: -webkit-linear-gradient( #b88b79,#1f1312);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-}
+}  */
 #contact {
   /* border: 1px solid black; */
   margin-top: 12%;
