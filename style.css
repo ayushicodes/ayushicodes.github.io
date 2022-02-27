@@ -624,7 +624,7 @@ margin: 0.5%;
     margin-top: 20%;
    margin-right: 2%;
    margin-left: 2%;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    box-shadow: 0 0 0 0 ;
   }
   #intro .image1 {
@@ -676,8 +676,18 @@ font-size: 35px;
     margin-left: 0;
     margin-top: 50%;
   }
+  #projects .project-el div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #projects .project-el div img{
+    height: 60px;
+
+  }
+
   #projects .project-el div a {
-    font-size: 20px;
+    font-size: 15px;
   }
   #blogs{
     margin-right: 0;
