@@ -409,7 +409,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   box-shadow: 0 0 10px 5px #1f1312;
 } */
 #projects {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 12%;
   margin-right: 10%;
   margin-left: 10%;
