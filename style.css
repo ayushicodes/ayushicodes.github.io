@@ -619,19 +619,7 @@ margin: 0.5%;
     font-weight: 700;
     white-space: nowrap;
   }
-  .content #buttons{
-    width: 100%;
-    padding-bottom: 0;
-  }
-  .content #buttons button{
-    width: 120px;
-  }
-  .content #buttons .button2{
-    margin-left: 8%;
-  }
-  button{
-    width: 150px;
-  }
+ 
   #intro{
     margin-top: 20%;
    margin-right: 2%;
