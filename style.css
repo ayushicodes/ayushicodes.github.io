@@ -311,22 +311,22 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 }
 #skills .icon .html{
-  box-shadow: rgba(34, 30, 33, 0.4) -5px 5px, rgba(75, 73, 74, 0.3) -10px 10px, rgba(39, 30, 36, 0.2) -15px 15px, rgba(14, 13, 13, 0.1) -20px 20px, rgba(14, 12, 13, 0.05) -25px 25px;
+  box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #skills .icon .css{
-  box-shadow: rgba(34, 30, 33, 0.4) 0px 5px, rgba(75, 73, 74, 0.3) 0px 10px, rgba(39, 30, 36, 0.2) 0px 15px, rgba(14, 13, 13, 0.1) 0px 20px, rgba(14, 12, 13, 0.05) 0px 25px;
+  box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #skills .icon .js{
-  box-shadow: rgba(34, 30, 33, 0.4) 5px 5px, rgba(75, 73, 74, 0.3) 10px 10px, rgba(39, 30, 36, 0.2) 15px 15px, rgba(14, 13, 13, 0.1) 20px 20px, rgba(14, 12, 13, 0.05) 25px 25px;
+  box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #skills .icon .react{
-  box-shadow: rgba(34, 30, 33, 0.4) -5px 5px, rgba(75, 73, 74, 0.3) -10px 10px, rgba(39, 30, 36, 0.2) -15px 15px, rgba(14, 13, 13, 0.1) -20px 20px, rgba(14, 12, 13, 0.05) -25px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #skills .icon .python{
-  box-shadow: rgba(34, 30, 33, 0.4) 0px 5px, rgba(75, 73, 74, 0.3) 0px 10px, rgba(39, 30, 36, 0.2) 0px 15px, rgba(14, 13, 13, 0.1) 0px 20px, rgba(14, 12, 13, 0.05) 0px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #skills .icon .tailwind{
-  box-shadow: rgba(34, 30, 33, 0.4) 5px 5px, rgba(75, 73, 74, 0.3) 10px 10px, rgba(39, 30, 36, 0.2) 15px 15px, rgba(14, 13, 13, 0.1) 20px 20px, rgba(14, 12, 13, 0.05) 25px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 
