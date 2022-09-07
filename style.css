@@ -732,18 +732,8 @@ Menu
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 10%; */
 }
 
-/* #contact h2 {
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
-  line-height: 0.25;
-  margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
-  font-size: 1.5rem;
-
-} */
 
 #contact p {
   font-size: 25px;
@@ -784,11 +774,9 @@ Menu
 @media (max-width: 668px) {
   #contact {
     margin-top: auto;
-    /* margin-bottom: 15%; */
   }
 
   #contact .contact-icon {
-    /* border: 1px solid black; */
     width: 100%;
   }
 
