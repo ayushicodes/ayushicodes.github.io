@@ -773,7 +773,7 @@ Menu
 
 @media (max-width: 668px) {
   #contact {
-    margin-top: auto;
+    margin-top: 10%;
   }
 
   #contact .contact-icon {
