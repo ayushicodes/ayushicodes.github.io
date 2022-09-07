@@ -33,7 +33,6 @@
   <!-- ----------------------------------->
   <header class="header">
     <nav class="navbar">
-      <a href="#" class="nav-logo"><img src="profile_pic.png" alt="profile"></a>
       <a href="#" class="nav-logo" id="name">Ayushi Rai</a>
 
 
@@ -42,17 +41,13 @@
           <a href="#" class="nav-link" id="home">Home</a>
         </li>
         <li class="nav-item">
-          <a href="#intro" class="nav-link">About</a>
+          <a href="#about" class="nav-link">About</a>
         </li>
-        <li class="nav-item">
-          <a href="#skills" class="nav-link">Skills</a>
-        </li>
+
         <li class="nav-item">
           <a href="#projects" class="nav-link">Projects</a>
         </li>
-        <li class="nav-item">
-          <a href="#blogs" class="nav-link">Blogs</a>
-        </li>
+
         <li class="nav-item">
           <a href="#contact" class="nav-link">Contact</a>
         </li>
@@ -75,32 +70,60 @@
   <!-------------CONTENT------------------>
   <!------------------------------------->
   <br />
-  <div class="content">
-
-    <div class="about">
-      <h1>Hi <br /><span class="name">I'm AYUSHI</span><br /><br />
-        <span class="txt-rotate" data-period="2000" data-rotate='[ "DEVELOPER BY NIGHT","ENGINEER BY DAY" ]'>
-        </span>
-      </h1>
-      <p id="buttons">
-
-        <button>
-          <a href="My Resume.png"> <span>View Resume</span></a>
-          <div class="liquid"></div>
-        </button>
-
-
-      </p>
+  <section class="section" id="about">
+    <div class="title">
+      <h2>about</h2>
     </div>
 
-    <div class="img">
-      <img
-        src=" https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7837/student-working-with-her-laptop-clipart-xl.png"
-        alt="vector-img" class="image" />
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="profile pic.jpg" alt="" />
+      </article>
+      <article class="about">
+        <!-- btn container -->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">history</button>
+          <button class="tab-btn" data-id="vision">vision</button>
+          <button class="tab-btn" data-id="goals">goals</button>
+        </div>
+        <div class="about-content">
+          <!-- single item -->
+          <div class="content active" id="history">
+            <!-- <h4>history</h4> -->
+            <p>
+              I am a web developer. I spend my everyday experimenting with HTML, CSS, Javascript and React. I build
+              wesite that delight and inform. I am curious, and I enjoy work that challenges me to learn something new
+              and stretch in diffrent direction.
+            </p>
+          </div>
+
+
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="vision">
+            <p>
+              To become a prime performer, in providing quality Web and Software solutions.
+            </p>
+
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="goals">
+
+
+            <li>1) Learn a new technology</li>
+            <li>2) Improve soft skills</li>
+            <li>3) Increase my professional network</li>
+
+
+
+
+          </div>
+          <!-- end of single item -->
+        </div>
+      </article>
     </div>
-
-  </div>
-
+  </section>
 
 
 
@@ -111,208 +134,71 @@
 
   <!-------------CONTENT------------------>
   <!------------------------------------->
-  <div id="intro">
 
-    <!-- <div class="image1">
-
-      <img
-        src="https://static.vecteezy.com/system/resources/previews/002/681/695/non_2x/online-training-laptop-computer-books-website-courses-knowledge-development-using-internet-vector.jpg"
-        alt="vector-img" />
-    </div> -->
-    <div class="line1">
-      <h1>Know Me Better 😉 </h1><br />
-      <p> Hi there!<br />
-        I am a 19 y/o INFJ.<br />
-        B.Tech (EC) student by day. <br />
-        Frontend developer by night.<br />
-        Always up for intresting conversations!</p>
-    </div>
-  </div>
-
-
-
-
-
-  <!------------- SKILLS------------------>
-  <!--------------------------------------->
-  <div id="skills">
-
-    <h1>My Skills</h1>
-    <div class="icon">
-      <div class="html">
-        <i id="html" class="fab fa-html5"></i>
-        <p>HTML</p>
+  <div class="project-continer" id="projects">
+    <section class="project">
+      <!-- title -->
+      <div class="project-title">
+        <h2>Projects</h2>
       </div>
-      <div class="css">
-        <i id="css" class="fab fa-css3-alt"></i>
-        <p>CSS</p>
+      <!-- filter buttons -->
+      <div class="projectbtn-container">
+        <button type="button" class="filter-btn" data-id="all">all</button>
+        <button type="button" class="filter-btn" data-id="breakfast">
+          javascript
+        </button>
+        <button type="button" class="filter-btn" data-id="lunch">React</button>
       </div>
-      <div class="js">
-        <i id="js" class="fab fa-js"></i>
-        <p>JAVASCRIPT</p>
-      </div>
-      <div class="react">
-        <i id="react" class="fab fa-react"></i>
-        <p>REACT</p>
-      </div>
-      <div class="python">
-        <i id="python" class="fab fa-python"></i>
-        <p>PYTHON</p>
-      </div>
-      <div class="tailwind">
-        <img src="tailwind.png">
-        <p>tailwind</p>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-  <!------------PROJECTS------------------>
-  <!-------------------------------------->
-  <div id="projects">
-
-    <h1> My Projects</h1>
-    <div class="project-el">
-
-      <div><img src="https://dpoisn.com/images/faces/minions/Shy-Minion-icon.png">
-        <a href="https://minion-speak-00.netlify.app" target="_blank"> Minion Speak</a>
-
+      <!-- menu items -->
+      <div class="Projectsection-center">
+        <!-- single item -->
+        <article class="project-item">
+          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
+          <div class="project-info">
+            <header>
+              <h4>memory game</h4>
+            </header>
+            <p class="project-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+              laboriosam excepturi! Quo, officia.
+            </p>
+          </div>
+        </article>
       </div>
 
-      <div> <img src="https://www.freepngimg.com/download/whatsapp/73733-emoticon-smiley-wink-smile-whatsapp-emoji.png">
-        <a href="https://emoji-translater.netlify.app" target="_blank">Emoji Translater</a>
+
+      <!-- javascript -->
+      <!-- javascript -->
+
+
+
+      <div id="contact">
+        <h2>Contacts</h2>
+
+        <img src="profile pic.jpg" alt="profile-pic" /><br />
+        <p>Get In Touch😄</p>
+        <div class="contact-icon">
+
+          <a href="https://www.instagram.com/ayuc_rai/">
+            <i class="fab fa-instagram" alt="instagram"></i>
+          </a>
+          <a href="https://dev.to/ayushicodes">
+            <i class="fab fa-dev" alt="dev"></i>
+          </a>
+          <a href="https://github.com/ayushicodes">
+            <i class="fab fa-github" alt="github"></i>
+          </a>
+          <a href="https://twitter.com/AR__Rai">
+            <i class="fab fa-twitter" alt="twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ayushi-rai-053048219/">
+            <i class="fab fa-linkedin" alt="linkedin"></i>
+          </a>
+        </div>
       </div>
 
-      <div><img
-          src="https://th.bing.com/th/id/R.2e2cd46024af4c88cb40224ccff6186e?rik=T380Ozr%2frKeFfg&riu=http%3a%2f%2fclipartmag.com%2fimages%2fchecklist-clipart-6.png&ehk=qJAKmbp2zKQYkEUa9PELnMcmB04NqCrjhsJoMysmmYo%3d&risl=&pid=ImgRaw&r=0">
-        <a href="https://todo-app-00.netlify.app" target="_blank"> ToDo-App</a>
-      </div>
-
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-  <!------------- CONTACT --------------->
-  <!-------------------------------------->
-  <div id="contact">
-
-    <img src="profile_pic.png" alt="profile-pic" /><br />
-    <p>Get In Touch😄</p>
-    <div class="contact-icon">
-
-      <a href="https://www.instagram.com/ayuc_rai/">
-        <i class="fab fa-instagram" alt="instagram"></i>
-      </a>
-      <a href="https://dev.to/ayushicodes">
-        <i class="fab fa-dev" alt="dev"></i>
-      </a>
-      <a href="https://github.com/ayushicodes">
-        <i class="fab fa-github" alt="github"></i>
-      </a>
-      <a href="https://twitter.com/AR__Rai">
-        <i class="fab fa-twitter" alt="twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ayushi-rai-053048219/">
-        <i class="fab fa-linkedin" alt="linkedin"></i>
-      </a>
-    </div>
-  </div>
-
-
-
-
-
-  <!------------- JAVASCRIPT -------------------->
-  <!-------------------------------------------->
-  <script>
-
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-
-    hamburger.addEventListener("click", mobileMenu);
-
-    function mobileMenu() {
-      hamburger.classList.toggle("active");
-      navMenu.classList.toggle("active");
-    }
-    const navLink = document.querySelectorAll(".nav-link");
-
-    navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-    function closeMenu() {
-      hamburger.classList.remove("active");
-      navMenu.classList.remove("active");
-    }
-
-    var TxtRotate = function (el, toRotate, period) {
-      this.toRotate = toRotate;
-      this.el = el;
-      this.loopNum = 0;
-      this.period = parseInt(period, 10) || 2000;
-      this.txt = '';
-      this.tick();
-      this.isDeleting = false;
-    };
-
-    TxtRotate.prototype.tick = function () {
-      var i = this.loopNum % this.toRotate.length;
-      var fullTxt = this.toRotate[i];
-
-      if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-      } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-      }
-
-      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-      var that = this;
-      var delta = 300 - Math.random() * 100;
-
-      if (this.isDeleting) { delta /= 2; }
-
-      if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-      } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-      }
-
-      setTimeout(function () {
-        that.tick();
-      }, delta);
-    };
-
-    window.onload = function () {
-      var elements = document.getElementsByClassName('txt-rotate');
-      for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-rotate');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtRotate(elements[i], JSON.parse(toRotate), period);
-        }
-      }
-      // INJECT CSS
-      var css = document.createElement("style");
-      css.type = "text/css";
-      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-      document.body.appendChild(css);
-    };
-
-  </script>
+      <script src="app.js"></script>
 </body>
 
 </html>
