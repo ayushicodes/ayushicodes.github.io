@@ -72,7 +72,6 @@ const menu = [
         id: 1,
         title: "breakout",
         category: "javascript",
-        // price: 13.99,
         img: "images/breakout.png",
         desc: `In Breakout, a layer of bricks lines the top third of the screen and the goal is to destroy them all by repeatedly bouncing a ball off a paddle into them. `,
         link: `https://breakout00.netlify.app`
@@ -81,7 +80,6 @@ const menu = [
         id: 2,
         title: "emojitranslater",
         category: "react",
-        // price: 6.99,
         img: "images/emojitranslater.png",
         desc: `
         EmojiTranslater translates emojis to texts in english language`,
@@ -91,7 +89,6 @@ const menu = [
         id: 3,
         title: "Todo",
         category: "javascript",
-        // price: 20.99,
         img: "images/grocerybud.png",
         desc: `You can create a list and can edit and delete the individual item or whole list. `,
         link: `https://to-do-app00.netlify.app`
@@ -100,7 +97,6 @@ const menu = [
         id: 4,
         title: "memory game",
         category: "javascript",
-        price: 22.99,
         img: "images/memorygame.png",
         desc: `It is a simple card game of finding two similar image. It imporves visual recognition `,
         link: `https://memory-game00.netlify.app`
@@ -109,7 +105,6 @@ const menu = [
         id: 5,
         title: "minionspeak",
         category: "javascript",
-        price: 18.99,
         img: "images/minionspeak.png",
         desc: `It translate english language to banana language using an API.`,
         link: `https://minion-speak-00.netlify.app`
@@ -118,7 +113,6 @@ const menu = [
         id: 6,
         title: "whac a mole",
         category: "javascript",
-        price: 8.99,
         img: "images/wacamole.png",
         desc: `Moles appear randomly in any square. Points are scored by whacking each mole as it appears.`,
         link: `https://wac-a-mole00.netlify.app`
