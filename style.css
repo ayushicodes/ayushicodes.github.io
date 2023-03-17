@@ -55,19 +55,14 @@ Variables
   --fixed-width: 620px;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 /* header section */
 /* ----------------- */
-
-
 
 li {
   list-style: none;
@@ -127,7 +122,7 @@ a {
   margin: 5px 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black
+  background-color: black;
 }
 
 .nav-menu {
@@ -147,7 +142,6 @@ a {
   font-size: 1.6rem;
   font-weight: 900;
   color: black;
-
 }
 
 .nav-menu .nav-item #home {
@@ -155,8 +149,6 @@ a {
   padding: 1px 4px;
   border-radius: 5px;
   color: var(--clr-gold);
-
-
 }
 
 .nav-menu .nav-item #home:hover {
@@ -168,9 +160,6 @@ a {
   color: var(--clr-gold);
 }
 
-
-
-
 /*
   =============== 
   Variables
@@ -178,11 +167,6 @@ a {
   */
 
 /* custom scroll bar */
-
-
-
-
-
 
 /*
   =============== 
@@ -205,8 +189,6 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-
-
 
 ul {
   list-style-type: none;
@@ -425,7 +407,45 @@ main {
   display: block;
 }
 
+/* CSS */
+.button-89 {
+  --b: 3px; /* border thickness */
+  --s: 0.45em; /* size of the corner */
+  --color: #373b44;
 
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background: conic-gradient(
+      from 90deg at var(--b) var(--b),
+      #0000 90deg,
+      var(--color) 0
+    )
+    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+    calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
 
 /*
 =============== 
@@ -671,10 +691,8 @@ Menu
   }
 }
 
-
 /* --------MEDIA QUERY---------- */
 /* ----------------------------- */
-
 
 @media (max-width: 668px) {
   .header {
@@ -682,7 +700,6 @@ Menu
     margin-left: 0;
     /* background-color: black; */
     background: var(--clr-grey-9);
-
   }
 
   .nav-menu {
@@ -693,14 +710,12 @@ Menu
     /* background-color: black; */
     background: var(--clr-grey-9);
 
-
     /* color: black; */
     width: 100%;
     /* border-radius: 10px; */
     text-align: center;
     transition: 0.3s;
-    box-shadow:
-      0 10px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .header .navbar .nav-menu .nav-item .nav-link {
@@ -714,7 +729,6 @@ Menu
     font-size: 35px;
     width: 100%;
     text-align: center;
-
   }
 
   .nav-menu.active {
@@ -728,24 +742,19 @@ Menu
   .hamburger {
     display: block;
     cursor: pointer;
-
   }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-
   }
 
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-
   }
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-
   }
-
 }
 
 #contact {
@@ -758,7 +767,6 @@ Menu
   justify-content: center;
   align-items: center;
 }
-
 
 #contact p {
   font-size: 25px;
@@ -778,13 +786,9 @@ Menu
   /* border: 1px solid black; */
   width: 100%;
   text-align: center;
-
-
 }
 
-
 #contact .contact-icon a {
-
   color: rgba(151, 139, 139, 0.582);
   /* opacity: 0.6; */
   margin: 0.5%;
@@ -793,7 +797,6 @@ Menu
 #contact .contact-icon a:hover {
   /* background: var(--clr-primary-10); */
   color: var(--clr-gold);
-
 }
 
 @media (max-width: 668px) {
@@ -806,10 +809,8 @@ Menu
   }
 
   #contact .contact-icon a {
-
     font-size: 30px;
     margin: 4%;
     text-align: center;
-
   }
 }
