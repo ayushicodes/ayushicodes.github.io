@@ -113,7 +113,7 @@ const menu = [
     title: "Code Editor",
     category: "react",
     img: "images/codeeditor.png",
-    desc: ` This is made with the help of codemirror. Here we can write code using HTML, CSS and JS.`,
+    desc: ` This is made with the help of Codemirror and Codemirror2 library. Here we can write code using HTML, CSS and JS.`,
     link: `https://code-editor01.netlify.app/`,
   },
 ];
