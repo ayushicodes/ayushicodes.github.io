@@ -1,53 +1,53 @@
-let about = document.querySelector(".about")
-let btn = document.querySelectorAll(".tab-btn")
-let content = document.querySelectorAll(".content")
+let about = document.querySelector(".about");
+let btn = document.querySelectorAll(".tab-btn");
+let content = document.querySelectorAll(".content");
 
-const hamburger = document.querySelector(".hamburger")
-const navMenu = document.querySelector(".nav-menu")
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener("click", mobileMenu)
+hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-  hamburger.classList.toggle("active")
-  navMenu.classList.toggle("active")
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
-const navLink = document.querySelectorAll(".nav-link")
+const navLink = document.querySelectorAll(".nav-link");
 
-navLink.forEach((n) => n.addEventListener("click", closeMenu))
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
-  hamburger.classList.remove("active")
-  navMenu.classList.remove("active")
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }
 
-const nav = document.querySelector(".header")
+const nav = document.querySelector(".header");
 
 window.addEventListener("scroll", function () {
-  let navHeight = nav.getBoundingClientRect().height
-  let scrollHeight = window.pageYOffset
+  let navHeight = nav.getBoundingClientRect().height;
+  let scrollHeight = window.pageYOffset;
 
   if (scrollHeight > navHeight) {
-    nav.classList.add("fixed-nav")
+    nav.classList.add("fixed-nav");
   } else {
-    nav.classList.remove("fixed-nav")
+    nav.classList.remove("fixed-nav");
   }
-})
+});
 
 about.addEventListener("click", function (e) {
-  const id = e.target.dataset.id
+  const id = e.target.dataset.id;
   if (id) {
     btn.forEach(function (btn) {
-      btn.classList.remove("active")
-    })
-    e.target.classList.add("active")
+      btn.classList.remove("active");
+    });
+    e.target.classList.add("active");
 
     content.forEach(function (content) {
-      content.classList.remove("active")
-    })
-    const element = document.getElementById(id)
-    element.classList.add("active")
+      content.classList.remove("active");
+    });
+    const element = document.getElementById(id);
+    element.classList.add("active");
   }
-})
+});
 
 const menu = [
   {
@@ -101,57 +101,65 @@ const menu = [
   },
 
   {
-    id: 1,
+    id: 7,
     title: "Chat Application",
     category: "react",
     img: "images/chatapp.png",
     desc: ` This is made with the help of react chat engine. Here we can create groups and we can even add our friends. We can also send text and images.`,
     link: `https://chat-application01.netlify.app/`,
   },
-]
-let sectionCenter = document.querySelector(".projectSection-center")
-let btnCointainer = document.querySelector(".projectBtn-container")
+  {
+    id: 8,
+    title: "Code Editor",
+    category: "react",
+    img: "images/codeeditor.png",
+    desc: ` This is made with the help of codemirror. Here we can write code using HTML, CSS and JS.`,
+    link: `https://code-editor01.netlify.app/`,
+  },
+];
+let sectionCenter = document.querySelector(".projectSection-center");
+let btnCointainer = document.querySelector(".projectBtn-container");
 
 window.addEventListener("DOMContentLoaded", function () {
-  displayMenu(menu)
-  displayMenuBtns()
-})
+  displayMenu(menu);
+  displayMenuBtns();
+});
 
 function displayMenuBtns() {
   const categories = menu.reduce(
     function (value, currValue) {
       if (!value.includes(currValue.category)) {
-        value.push(currValue.category)
+        value.push(currValue.category);
       }
-      return value
+      return value;
     },
     ["all"]
-  )
+  );
   const categoryBtn = categories
     .map(function (category) {
-      return ` <button type="button" class="filter-btn" data-id=${category}>${category}</button>`
+      return ` <button type="button" class="filter-btn" data-id=${category}>${category}</button>`;
     })
-    .join("")
-  btnCointainer.innerHTML = categoryBtn
+    .join("");
+  btnCointainer.innerHTML = categoryBtn;
 
-  let filterbtn = document.querySelectorAll(".filter-btn")
+  let filterbtn = document.querySelectorAll(".filter-btn");
 
   filterbtn.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
-      let category = e.currentTarget.dataset.id
+      let category = e.currentTarget.dataset.id;
       // console.log(category)
       let displayCategory = menu.filter(function (item) {
         if (item.category === category) {
-          return item
+          return item;
         }
-      })
+      });
       if (category === "all") {
-        return displayMenu(menu)
+        return displayMenu(menu);
       } else {
-        return displayMenu(displayCategory)
+        return displayMenu(displayCategory);
       }
-    })
-  })
+    });
+  });
 }
 
 function displayMenu(menuItems) {
@@ -170,8 +178,8 @@ function displayMenu(menuItems) {
                
             </p>
         </div>
-    </article>`
+    </article>`;
     })
-    .join("")
-  sectionCenter.innerHTML = display
+    .join("");
+  sectionCenter.innerHTML = display;
 }
