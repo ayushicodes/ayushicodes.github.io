@@ -116,6 +116,14 @@ const menu = [
     desc: ` This is made with the help of Codemirror and Codemirror2 library. Here we can write code using HTML, CSS and JS.`,
     link: `https://code-editor01.netlify.app/`,
   },
+  {
+    id: 9,
+    title: "Meme Genrator",
+    category: "react",
+    img: "images/memegenrator.png",
+    desc: ` This is made with the help of Codemirror and Codemirror2 library. Here we can write code using HTML, CSS and JS.`,
+    link: `https://meme-genrator01.netlify.app`,
+  },
 ];
 let sectionCenter = document.querySelector(".projectSection-center");
 let btnCointainer = document.querySelector(".projectBtn-container");
